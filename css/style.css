@@ -1,0 +1,65 @@
+body{
+    background-color: #222222;
+    color:white;
+    padding: 0em;
+    margin: 0%;
+    font-size: 16px;
+}
+body>*{
+    margin: 0em;
+}
+a:any-link{
+    color:yellow;
+}
+header, footer{
+    background-color: #343434;
+    margin:0em;
+    padding: 1em;  
+    clear: both; 
+
+}
+header>*, footer>*, main{
+    max-width: 960px;
+    margin: 0 auto;
+}
+main>*{
+    margin: 1em;
+}
+img{
+    float: right;
+    max-width: 50%;
+    
+}
+figure{
+    float: right;
+    max-width: 50%;
+    border: 3px solid green;
+}
+figure>img{
+    float: none;
+    max-width: 100%;
+    width: 100%;
+}
+section{
+    clear: both;
+}
+
+@media screen and (max-width:50em) {
+    img{
+        float:none;
+        max-width: 90%;
+        min-width: none;
+        width: 90%;
+    }
+    figure{
+        float:none;
+        max-width: 90%;
+        min-width: none;
+        width: 90%;
+        border: 3px solid green;
+    }
+}
+h2{
+    border-left: 1em solid green;
+    background-color: darkgreen;
+}
