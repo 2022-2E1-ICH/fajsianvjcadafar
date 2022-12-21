@@ -28,17 +28,19 @@ main>*{
 img{
     float: right;
     max-width: 50%;
-    
+    margin:1em;
 }
 figure{
     float: right;
     max-width: 50%;
     border: 3px solid green;
+    margin:1em;
 }
 figure>img{
     float: none;
     max-width: 100%;
     width: 100%;
+    margin:0;
 }
 section{
     clear: both;
